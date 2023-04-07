@@ -1,0 +1,120 @@
+#tafrit {
+    height: 70px;
+    background-color: rgb(234, 234, 234);
+}
+#logo_tafrit {
+    float: left;
+    font-size: 25px;
+    margin-left: 140px;
+    padding-top: 18px;
+}
+.kahol_rashi_flex {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+}
+@media (max-width: 650px) {
+    #kahol_tofes_right {
+        margin-top: -40px;
+     } }
+@media (max-width: 650px) {
+    .kahol_rashi_flex {
+        flex-direction: column;
+        height: 1250px;
+        }
+    #kahol_text_left > h1 {
+        text-align: center;
+    } }
+
+.kahol_rashi_flex > div {
+    margin:  50px;  
+    font-size: 20px;
+}
+#kahol_tofes_right {
+    margin-right: 70px; 
+    background-color: rgb(63, 161, 235);
+}
+#kahol_text_left > h1, #kahol_text_left > h2, #kahol_text_left > p,
+#kahol_tofes_right > h3, #kahol_tofes_right > form > label { 
+    color: rgb(255, 255, 255);
+}
+form {
+    padding: 0 0 20px 0;
+}
+form > input {
+    width: 325px;
+    height: 40px;
+    margin: 5px 25px 15px 25px;
+}
+input[type=submit] {
+    background-color: rgb(243, 176, 52);
+    color: white;
+}
+#kahol_tofes_right > h3, #kahol_tofes_right > form > label {
+    margin-left: 25px;
+}
+.flex-container {
+    display: flex;
+}
+.flex-container > div {
+    margin: 50px 0 0 20px;
+    padding: 30px;
+    font-size: 22px;
+    text-align: center;
+    width: 33%;
+}
+@media (max-width: 650px) {
+    .flex-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    } }  
+@media (max-width: 650px) {
+    .flex-container > div {
+        width: 90%;
+    } } 
+#div_tahton {
+    height: 255px;
+    padding-top: 20px;
+    background-color: rgb(234, 234, 234);
+    text-align: center;
+    font-size: 22px;
+}
+#div_tahton > p {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 10px;
+}
+@media (max-width: 650px) {
+    #div_tahton > p {
+        margin-left: 80px;
+        margin-right: 80px;
+        padding-top: 20px;
+    } }
+#call_for_small {
+    padding: 30px;
+    background-color: rgba(243, 176, 52);
+    border-radius: 25px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+#call_for_small > a {
+    color: white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    text-decoration: none;
+}
+#p_for_small {
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    text-decoration: none;
+}
+@media (min-width: 650px) {
+    #p_for_small {
+        display: none;
+    }
+    #call_for_small {
+        display: none;
+    } }
